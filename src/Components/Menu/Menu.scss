@@ -1,0 +1,25 @@
+nav.menu {
+  background: #fff;
+  padding: 20px;
+  height: 100%;
+  ul{
+    li{
+      margin-bottom: 20px;
+      a{
+        display: flex;
+        align-items: center;
+
+        svg{
+          width: 25px;
+          margin-right: 10px;
+          fill: #000;
+        }
+
+        h5{
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

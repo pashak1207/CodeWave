@@ -8,8 +8,9 @@
   top: 0;
   left: 0;
   border-bottom: 1px solid #eee;
-  box-shadow: 0 3px 5px -2px #eee;
+  box-shadow: 0 3px 5px -2px rgba(136, 136, 136, 0.38);
   padding: 10px 0;
+  background-color: #fff;
 
   .wrapper {
     display: flex;
@@ -17,12 +18,39 @@
     justify-content: space-between;
   }
 
-  #search{
+  .container{
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  #search{
+    margin-right: 20px;
+    width: 50%;
+    max-width: 320px;
+    position: relative;
+
+    input{
+      border: 1px solid #eee;
+      padding: 10px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    
+    &:after{
+      content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNDE2IDIwOGMwIDQ1LjktMTQuOSA4OC4zLTQwIDEyMi43TDUwMi42IDQ1Ny40YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zcy0zMi44IDEyLjUtNDUuMyAwTDMzMC43IDM3NmMtMzQuNCAyNS4yLTc2LjggNDAtMTIyLjcgNDBDOTMuMSA0MTYgMCAzMjIuOSAwIDIwOFM5My4xIDAgMjA4IDBTNDE2IDkzLjEgNDE2IDIwOHpNMjA4IDM1MmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6Ii8+PC9zdmc+");
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      width: 20px;
+      transform: translate(0, -50%);
+    }
   }
 
   #notifications{
-
+    display: inline-block;
+    width: 20px;
   }
 
   &__logo {
@@ -49,14 +77,17 @@
       align-items: center;
 
       img{
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         object-fit: cover;
         border-radius: 50%;
       }
 
       h5{
-
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 15px;
       }
     }
   }

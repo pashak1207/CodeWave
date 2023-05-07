@@ -7,26 +7,35 @@
     "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.11.16",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.25",
-    "@types/react-dom": "^18.2.3",
-    "ajv-keywords": "^5.1.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.0.0",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-svg": "^5.0.0",
     "css-select": "^5.1.0",
     "nth-check": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
+    "rewire": "^6.0.0",
     "scss": "^0.2.4",
-    "web-vitals": "^2.1.4"
+    "svg-react-loader": "^0.4.6",
+    "ts-loader": "^9.4.2",
+    "web-vitals": "^3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stop": "taskkill -F -IM node.exe"
+  },
+  "overrides": {
+    "react-scripts": {
+      "typescript": "^5"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -55,12 +64,12 @@
     "@types/react": "^18.2.5",
     "@types/react-redux": "^7.1.25",
     "@types/redux-devtools-extension": "^2.13.2",
-    "ajv": "^7.2.4",
-    "awesome-typescript-loader": "^5.2.1",
+    "ajv": "^8.12.0",
     "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
+    "prettier": "2.8.8",
     "react-redux": "^8.0.5",
     "redux": "^4.2.1",
     "sass": "^1.62.1",
