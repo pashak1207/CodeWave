@@ -1,10 +1,10 @@
 import React, { ReactElement } from "react";
+import "./Recommendations.scss";
 import { NavLink } from "react-router-dom";
-import "./Menu.scss";
 
-function Menu(): ReactElement {
+function Recommendations(): ReactElement {
   return (
-    <nav className="menu">
+    <nav className="menu recommendations">
       <ul>
         <li>
           <NavLink to="/">
@@ -66,4 +66,4 @@ function Menu(): ReactElement {
   );
 }
 
-export default Menu;
+export default Recommendations;

@@ -8,7 +8,6 @@ function App(): ReactElement {
     <div className="App">
       <Header />
       <Main />
-      <div className="temp"></div>
       <Footer />
     </div>
   );
