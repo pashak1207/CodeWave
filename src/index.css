@@ -87,6 +87,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 10px;
 }
 
+.App .wrapper{
+    display: flex;
+    padding: 20px 0;
+}
+
 @media (max-width: 1440px) {
    .wrapper {
         max-width: 1120px;
@@ -123,5 +128,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body{
-    background: #fffdf7;  /*NEED TO REMOVE*/
+    background: #fcfdfe;  /*NEED TO REMOVE*/
 }

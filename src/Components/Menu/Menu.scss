@@ -2,6 +2,7 @@ nav.menu {
   background: #fff;
   padding: 20px;
   height: 100%;
+  margin-right: 20px;
   ul{
     li{
       margin-bottom: 20px;
@@ -10,15 +11,15 @@ nav.menu {
         align-items: center;
 
         svg{
-          width: 25px;
+          width: 30px;
           margin-right: 10px;
           fill: #000;
         }
 
         h5{
-          //font-family: "Roboto", sans-serif;
-          font-family: "Inria Serif", sans-serif;
+          font-family: "Roboto", sans-serif;
           font-size: 18px;
+          font-weight: 500;
         }
       }
     }

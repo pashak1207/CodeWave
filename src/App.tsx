@@ -1,14 +1,17 @@
 import React, { ReactElement } from "react";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import Main from "./Components/Main/Main";
+import Menu from "./Components/Menu/Menu";
+import Wall from "./Pages/Wall/Wall";
 
 function App(): ReactElement {
   return (
     <div className="App">
       <Header />
-      <Main />
-      <div className="temp"></div>
+      <div className="wrapper">
+        <Menu />
+        <Wall />
+      </div>
       <Footer />
     </div>
   );
