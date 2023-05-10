@@ -17,17 +17,17 @@ function Menu(): ReactElement {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/">
+          <NavLink to="/messages">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
               <g id="Layer_91" data-name="Layer 91">
                 <path d="M53.44,17.78A1.51,1.51,0,0,0,52,16.69H12a1.52,1.52,0,0,0-1.5,1.5V45.81a1.5,1.5,0,0,0,1.5,1.5H52a1.5,1.5,0,0,0,1.5-1.5V18.19A1.84,1.84,0,0,0,53.44,17.78Zm-6.25,1.91L32,30.18,16.81,19.69ZM13.5,44.31V21.05L31.15,33.23a1.47,1.47,0,0,0,1.7,0L50.5,21.05V44.31Z" />
               </g>
             </svg>
-            <h5>Message</h5>
+            <h5>Messages</h5>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/">
+          <NavLink to="/friends">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
               <g id="Layer_28" data-name="Layer 28">
                 <path d="M32,8.71A23.32,23.32,0,0,0,8.71,32C10,62.9,54,62.89,55.29,32A23.32,23.32,0,0,0,32,8.71Zm0,43.58A20.31,20.31,0,0,1,11.71,32C12.83,5.08,51.18,5.09,52.29,32A20.31,20.31,0,0,1,32,52.29Z" />
@@ -40,7 +40,7 @@ function Menu(): ReactElement {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/">
+          <NavLink to="/code">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
               <g id="Layer_27" data-name="Layer 27">
                 <path d="M50.94,50.5H12a1.5,1.5,0,0,0,0,3H50.94A1.5,1.5,0,0,0,50.94,50.5Z" />
@@ -51,7 +51,7 @@ function Menu(): ReactElement {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/">
+          <NavLink to="/settings">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
               <g id="Layer_65" data-name="Layer 65">
                 <path d="M32,21.54A10.47,10.47,0,0,0,21.54,32c.57,13.88,20.35,13.88,20.92,0A10.47,10.47,0,0,0,32,21.54Zm0,17.92A7.46,7.46,0,0,1,24.54,32c.35-9.88,14.58-9.88,14.92,0A7.46,7.46,0,0,1,32,39.46Z" />
