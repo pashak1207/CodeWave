@@ -41,7 +41,7 @@ function Footer(): ReactElement {
                 fill="#4591AE"
               />
             </svg>
-            <h1>CodeWave</h1>
+            <h1>codewave</h1>
           </Link>
         </div>
       </div>

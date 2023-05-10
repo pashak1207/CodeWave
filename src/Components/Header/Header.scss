@@ -1,17 +1,15 @@
-.temp {
+.temp{
   height: 200vh;
   width: 100%;
-}
-
-/**delete it**/
+}/**delete it**/
 
 .header {
   position: sticky;
   top: 0;
   left: 0;
-
   padding: 10px 0;
   background-color: #fff;
+  box-shadow: 0px 0px 16px -5px rgba(238,238,238,1);
 
   .wrapper {
     display: flex;
@@ -19,27 +17,20 @@
     justify-content: space-between;
   }
 
-  .container {
-    flex: 1 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #search {
+  #search{
     margin-right: 20px;
     width: 50%;
     max-width: 320px;
     position: relative;
 
-    input {
+    input{
       border: 1px solid #eee;
       padding: 10px;
       width: 100%;
       border-radius: 10px;
     }
-
-    &:after {
+    
+    &:after{
       content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNDE2IDIwOGMwIDQ1LjktMTQuOSA4OC4zLTQwIDEyMi43TDUwMi42IDQ1Ny40YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zcy0zMi44IDEyLjUtNDUuMyAwTDMzMC43IDM3NmMtMzQuNCAyNS4yLTc2LjggNDAtMTIyLjcgNDBDOTMuMSA0MTYgMCAzMjIuOSAwIDIwOFM5My4xIDAgMjA4IDBTNDE2IDkzLjEgNDE2IDIwOHpNMjA4IDM1MmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6Ii8+PC9zdmc+");
       position: absolute;
       right: 10px;
@@ -49,42 +40,42 @@
     }
   }
 
-  #notifications {
+  #notifications{
     display: inline-block;
     width: 20px;
   }
 
   &__logo {
-    a {
+    a{
       display: inline-flex;
       align-items: center;
 
-      svg {
-        height: 45px;
-        width: 45px;
+      svg{
+        height: 40px;
+        width: 40px;
         margin-right: 10px;
       }
 
-      h1 {
-        font-size: 26px;
+      h1{
+        font-size: 22px;
         font-weight: 700;
       }
     }
   }
 
   &__profile {
-    a {
+    a{
       display: inline-flex;
       align-items: center;
 
-      img {
+      img{
         width: 45px;
         height: 45px;
         object-fit: cover;
         border-radius: 50%;
       }
 
-      h5 {
+      h5{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 18px;

@@ -8,6 +8,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    color: #212427;
 }
 
 :focus, :active {
@@ -47,6 +48,7 @@ input::-ms-clear {
 
 button {
     cursor: pointer;
+    background: transparent;
 }
 
 button::-moz-focus-inner {
@@ -74,7 +76,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: 400;
-    font-family: "Inria Serif", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
@@ -85,11 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 
     padding-right: 10px;
     padding-left: 10px;
-}
-
-.App .wrapper{
-    display: flex;
-    padding: 20px 0;
 }
 
 @media (max-width: 1440px) {
@@ -123,10 +120,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.App .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 :root{
     /*NEED TO DO*/
 }
 
 body{
-    background: #fcfdfe;  /*NEED TO REMOVE*/
+    background: #F8F8F8;  /*NEED TO REMOVE*/
 }
