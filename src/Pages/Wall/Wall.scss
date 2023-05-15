@@ -6,6 +6,7 @@
 
 }
 
+
 .create-post {
   padding: 20px;
   background: #fff;
@@ -14,8 +15,7 @@
 
   &.open{
     textarea{
-      height: auto;
-      overflow: hidden;
+      height: 200px;
     }
   }
 
@@ -38,6 +38,8 @@
       flex: 1 1 auto;
       overflow: hidden;
       padding: 15px 20px 0;
+      height: 50px;
+      transition: height ease-in-out 0.4s;
     }
 
     button{

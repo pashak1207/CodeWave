@@ -17,9 +17,6 @@ function Wall(): ReactElement {
   const [postText, setPostText] = useState("");
 
   const onFocusInputHandler = (e: any): void => {
-    if (isActive) {
-      e.target.style.height = `inherit`;
-    }
     setIsActive((current: boolean) => !current);
   };
 
@@ -27,8 +24,6 @@ function Wall(): ReactElement {
     if (event.target instanceof HTMLTextAreaElement) {
       const target: HTMLTextAreaElement = event.target;
       setPostText(target.value);
-      target.style.height = "inherit";
-      target.style.height = `${target.scrollHeight}px`;
     }
   };
 
