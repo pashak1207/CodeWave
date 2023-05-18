@@ -8,7 +8,6 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #212427;
 }
 
 :focus, :active {
@@ -26,7 +25,6 @@ nav, footer, header, aside {
 html, body {
     height: 100%;
     width: 100%;
-    font-size: 100%;
     line-height: 1;
     font-size: 14px;
     -ms-text-size-adjust: 100%;
@@ -79,57 +77,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
 }
 
-.wrapper {
-    margin-left: auto;
-    margin-right: auto;
-
-    max-width: 1400px;
-
-    padding-right: 10px;
-    padding-left: 10px;
+#root{
+    height: 100%;
 }
 
-@media (max-width: 1440px) {
-   .wrapper {
-        max-width: 1120px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .wrapper {
-        max-width: 960px;
-    }
-}
-
-@media (max-width: 992px) {
-    .wrapper {
-        max-width: 740px;
-    }
-}
-
-@media (max-width: 768px) {
-    .wrapper {
-        max-width: 450px;
-    }
-}
-
-@media (max-width: 480px) {
-    .wrapper {
-        max-width: none;
-        width: 100%;
-    }
-}
-
-.App .wrapper{
+.App{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    height: 100%;
 }
+
 
 :root{
     /*NEED TO DO*/
 }
 
 body{
-    background: #F8F8F8;  /*NEED TO REMOVE*/
+    background: #141718;  /*NEED TO REMOVE*/
 }
